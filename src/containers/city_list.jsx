@@ -17,13 +17,13 @@ class CityList extends Component {
   render() {
     const { cities } = this.props;
     return (
-      <div>
+      <ul className="cities">
         {
           cities.map((city) => {
             return (<City city={city} />);
           })
         }
-      </div>
+      </ul>
     );
   }
 }

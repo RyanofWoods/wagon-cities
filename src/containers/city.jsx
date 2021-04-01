@@ -2,9 +2,9 @@ import React from 'react';
 
 const City = ({ city }) => {
   return (
-    <div>
+    <li className="list-group-item">
       {city.name}
-    </div>
+    </li>
   );
 };
 

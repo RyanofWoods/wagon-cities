@@ -5,6 +5,7 @@ const App = () => {
   return (
     <div className="app">
       <CityList />
+      <div className="active-city" />
     </div>
   );
 };
